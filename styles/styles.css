@@ -438,14 +438,19 @@ font-weight: 500;
     
 }
 
-.projects-list-content{
-   margin: 20px 24px;
+.projects-box{
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-right:1px solid #EEEEEE;
+    padding: 20px 24px;
+
     
 }
 
+
 .projects-list-tittle{
-    margin-top: 20px;
-    padding:0 24px; 
+
+   
     
         font-size: 18px;
         line-height: 2;
@@ -455,8 +460,7 @@ font-weight: 500;
 
 .projects-list-text{
     margin-top: 4px;
-    padding:0 24px ;
-    padding-bottom: 20px;
+    
         line-height: 1.8;
         letter-spacing: 0.03em;
         color: var(--discription);
