@@ -103,6 +103,7 @@ img{
 
 .nav-link{
 padding: 32px 0;
+display: inline-block;
     font-weight: 500;
     font-size: 14px;
     line-height: 0.8;
@@ -131,6 +132,7 @@ padding: 32px 0;
 }
 
 .contacts{
+    display: inline-block;
     padding: 32px 0;
         font-weight: 500;
         font-size: 14px;
@@ -276,6 +278,7 @@ font-size: 36px;
 
 .team-list-card{
     background: #FFFFFF;
+    flex-basis: 270px;
         /* material shadow v1 */
     
         box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
